@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header {
+    margin-top: 20px;
+    top: 0;
+    padding: 1rem 9%;
+    left: 0;
+    position: fixed;
+    display: flex;
+    filter: drop-shadow(10px);
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: transparent;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ff4500;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+nav a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    margin-left: 4rem;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff4500;
+    border-bottom: 2px solid #ff4500;
+}
+
+section {
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: black;
+}
+
+.home-img {
+    border-radius: 50%;
+}
+
+.home-img img {
+    border-radius: 50%;
+    position: relative;
+    width: 32vw;
+    box-shadow:  0 0 25px solid;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.home-img img:hover {
+    transform: scale(1.1);
+    font-size: 1.8rem;
+    font-weight: 500;
+    border: 3px solid #ff4500;
+}
+
+.home .home-content h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+    transition: 0.5s ease;
+}
+
+
+.home .home-content h1:hover  {
+    color: #ff4500;
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+span {
+    color: #ff4500;
+}
+
+.home .home-content h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    transition: 0.5s ease;
+    color: white;
+}
+
+.home .home-content h3:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+.span-1 {
+    color: white;
+}
+
+.span-1:hover {
+    color: #ff4500;
+}
+
+
+.home-content p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: 0.5s ease;
+}
+
+.home-content p:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #ff4500;
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #ff4500;
+}
+
+.social-icons a:hover {
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #ff4500;
+    box-shadow: 0 0 25px #ff4500;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    font-size: 1.6rem;
+    color: #ff4500;
+    letter-spacing: 0.3rem;
+    border: 2px solid #ff4500;
+    border-radius: 4rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    background-color: #ff4500;
+    color: black;
+    box-shadow: 0 0 25px #ff4500;
+    transition: 0.3s ease;
+}
